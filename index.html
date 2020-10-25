@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORM PENDAFTARAN SYAHRIFAL SCHOOL</title>
+</head>
+<body>
+	<header>
+		<h1 style="color: red;">Student Registration Form</h1>
+	</header>
+	<form action="" method="post">
+		<h2>PERSONAL INFORMATION</h2>
+		<hr/>
+		<table style="width: 90%">
+			<tr>
+				<td style="width: 20%">NAMA LENGKAP</td>
+				<td>:</td>
+				<td><input style="width:100%" placeholder="Masukkan Nama Lengkap" required="" type="text" name="nama"></td>
+			</tr>
+			<tr>
+				<td>TANGGAL LAHIR</td>
+				<td>:</td>
+				<td><input style="width:100%" type="date" name="tanggal_lahir"></td>
+			</tr>
+		</table>
+
+		<h2>CONTACT INFORMATION</h2>
+		<hr/>
+		<table style="width: 90%">
+			<tr>
+				<td style="width: 20%">ALAMAT</td>
+				<td>:</td>
+				<td><textarea style="width:100%" name="alamat"></textarea></td>
+			</tr>
+			<tr>
+				<td>KOTA</td>
+				<td>:</td>
+				<td><input style="width:100%" required="" placeholder="Kota" required="" type="text" name="nama"></td>
+			</tr>
+			<tr>
+				<td>PROVINSI</td>
+				<td>:</td>
+				<td><input style="width:100%" required="" placeholder="Provinsi" required="" type="text" name="nama"></td>
+			</tr>
+			<tr>
+				<td>KODE POS</td>
+				<td>:</td>
+				<td><input style="width:100%" required="" placeholder="Kode Pos" required="" type="text" name="nama"></td>
+			</tr>
+			<tr>
+				<td>NOMOR TELEPON</td>
+				<td>:</td>
+				<td><input style="width:100%" required="" placeholder="Nomor Telepon" required="" type="number" name="nama"></td>
+			</tr>
+			<tr>
+				<td>EMAIL</td>
+				<td>:</td>
+				<td><input style="width:100%" required="" placeholder="Email" required="" type="email" name="nama"></td>
+			</tr>
+			<tr>
+				<td>TIPE SISWA</td>
+				<td>:</td>
+				<td><input type="radio" value="Reguler" name="tipe">
+					<label for="Reguler">Reguler</label>
+					<input type="radio" value="Prestasi" name="tipe">
+					<label for="Prestasi">Prestasi</label>
+					<input type="radio" value="Weekend" name="tipe">
+					<label for="Weekend">Weekend</label></td>
+				</tr>
+				<tr>
+					<td>WARNA KESUKAAN</td>
+					<td>:</td>
+					<td><input type="color"></td>
+				</tr>
+			</table>
+
+			<hr/>
+			<table>
+				<tr>
+					<td><button style="width: 100%" type="submit">SUBMIT</button></td>
+					<td><button style="width: 100%" type="submit">BATAL</button></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+	</html>
